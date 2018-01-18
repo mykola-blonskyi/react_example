@@ -1,0 +1,16 @@
+body, html{height:100%}
+
+body{
+  font-family: 'Titillium Web', sans-serif !important;
+  background-color: #F7F7F7;
+}
+
+@import './projects_header.scss';
+@import './add_proj_btn.scss';
+@import './projects_list.scss';
+@import './project_view.scss';
+@import './login_form.scss';
+@import './registration_form.scss';
+@import './default_page.scss';
+@import './project_wizard.scss';
+@import './list_pagination.scss';

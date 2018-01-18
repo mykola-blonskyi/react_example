@@ -1,0 +1,61 @@
+.projects_header_wrapper {
+  background-color: #262626;
+  padding-top: 20px;
+  padding-bottom: 30px;
+
+  .logo_wrapper img {
+    height: 40px;
+  }
+
+  .small_logo_wrapper {
+    img {
+      height: 30px;
+      margin-right: 5px;
+    }
+
+    a {
+      text-decoration: none;
+      color: #ffffff;
+      font-size: 12px;
+      text-transform: uppercase;
+      font-weight: 600;
+    }
+  }
+
+  .logo_wrapper a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 19px;
+  }
+
+  .page_title {
+    font-weight: 300;
+    font-size: 39px;
+    color: #ffffff;
+    line-height: 1;
+    margin-top: 30px;
+  }
+
+  .user_wrapper {
+    .dropdown {
+      float: right;
+
+      button,
+      button:hover,
+      button:active,
+      button:focus {
+        border: none;
+        background: none;
+        color: #fff;
+      }
+    }
+
+    .dropdown-toggle {
+      font-size: 14px;
+      color: #ffffff;
+      text-align: right;
+      cursor: pointer;
+    }
+  }
+}

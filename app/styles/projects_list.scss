@@ -1,0 +1,117 @@
+.projects_list {
+  display: block;
+
+  .empty_projects {
+    display: block;
+    font-size: 36px;
+    line-height: 51px;
+    color: #aaaaaa;
+    font-weight: 300;
+    text-align: center;
+    margin: 250px auto 0;
+  }
+
+  .search_project {
+    margin: 40px auto;
+
+    input {
+      width: 100%;
+      border: none;
+      background-color: #f7f7f7;
+      padding: 5px 35px;
+      font-size: 14px;
+      line-height: 1;
+
+      &:focus,
+      &:active {
+        background-image: none;
+      }
+
+      &.search_loop {
+
+        background-image: url(./images/grafik-assets/search.svg);
+        background-position: left center;
+        background-repeat: no-repeat;
+      }
+    }
+  }
+
+  .list_wrapper{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-content: flex-start;
+
+    &.between{
+      justify-content: space-between;
+    }
+
+    &.around{
+      justify-content: space-around;
+    }
+
+    .project_item_wrapper {
+      display: block;
+      // float: left;
+      // margin-left: 28px;
+      width: 32%;
+      margin-bottom: 20px;
+      border: 2px solid #ddd;
+      padding-bottom: 20px;
+  
+      // &:first-child,
+      // &:nth-child(4n) {
+      //   margin-left: 0;
+      // }
+  
+      .project_image {
+        display: block;
+        height: 290px;
+        width: 100%;
+  
+        img {
+          width: 100%;
+          height: auto;
+          max-height: 100%;
+        }
+      }
+  
+      .project_title a {
+        display: block;
+        padding-left: 15px;
+        padding-top: 20px;
+        padding-right: 10px;
+        margin-bottom: 5px;
+        font-size: 22px;
+        color: #000000;
+        text-decoration: none;
+        width: 90%;
+        height: 51px;
+      }
+  
+      .project_actions_wrapper {
+        float: right;
+        margin-top: 20px;
+        margin-right: 5px;
+  
+        .dropdown-menu {
+          li a {
+            font-size: 16px;
+            font-weight: 600;
+          }
+  
+          .remove_proj a {
+            color: #ae0000 !important;
+          }
+        }
+      }
+  
+      .scenarios_count {
+        padding-left: 15px;
+        font-size: 16px;
+        color: #727272;
+        line-height: 1;
+      }
+    }
+  }
+}

@@ -1,0 +1,67 @@
+.login_wrapper {
+  height: 100vh;
+  width: 100%;
+  display: block;
+  background-image: url(./images/background-new.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 150px;
+
+  .login_form {
+    display: block;
+    width: 300px;
+    margin: 0 auto;
+    background-color: #fff;
+
+    .logo {
+      display: block;
+      background-color: #262626;
+      width: 100%;
+      padding: 15px;
+      text-align: center;
+      margin-bottom: 10px;
+    }
+
+    .server_error {
+      color: red;
+      text-align: center;
+      padding: 10px 0;
+      font-size: 24px;
+      font-weight: 600;
+    }
+
+    .form_content {
+      padding: 0px 15px 40px;
+
+      .error_validation {
+        color: red;
+      }
+
+      .login_btn {
+        display: block;
+        width: 100%;
+        padding: 10px 0;
+        text-transform: uppercase;
+        font-weight: 600;
+        color: #fff;
+        background-color: #5ae0ae;
+        text-align: center;
+        font-size: 16px;
+        cursor: pointer;
+      }
+
+      .forgot,
+      .register {
+        margin-top: 15px;
+        text-align: center;
+        font-size: 14px;
+
+        a {
+          color: #2c2c2c;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
